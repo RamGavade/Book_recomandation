@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <link rel="stylesheet" href="about.css">-->
+    <title>Book Recommendation</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+</head>
+<body style="background-color: black">
+<nav class="navbar" style="background-color: aquamarine">
+    <p class="navbar-brand">My Book Recommender System</p>
+    <ul class="nav navbar-nav">
+       <li> <a href="/">Home</a></li>
+        <li> <a href="/recommend">Recommend</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="color: aliceblue">Project: Book Recommender System Using Machine Learning! | Collaborative Filtering Based</h1>
+            <br>
+            <a href="https://github.com/RamGavade?tab=repositories"><img src="https://github.com/entbappy/Books-Recommender-System-Using-Machine-Learning/raw/master/demo/6.jpeg" ></a>
+            <br>
+
+          <p style="color:white; font-size: 20px; position: relative; margin-top: 20px;">Recommendation systems are becoming increasingly important in today’s extremely busy world. People are always short on time with the myriad tasks they need to accomplish in the limited 24 hours. Therefore, the recommendation systems are important as they help them make the right choices, without having to expend their cognitive resources.
+
+The purpose of a recommendation system basically is to search for content that would be interesting to an individual. Moreover, it involves a number of factors to create personalised lists of useful and interesting content specific to each user/individual. Recommendation systems are Artificial Intelligence based algorithms that skim through all possible options and create a customized list of items that are interesting and relevant to an individual. These results are based on their profile, search/browsing history, what other people with similar traits/demographics are watching, and how likely are you to watch those movies. This is achieved through predictive modeling and heuristics with the data available.
+          </p>
+            <h2 style="color: aliceblue">Types of Recommendation System :</h2><br>
+            <h3 style="color: aliceblue">1 ) Content Based :</h3><br>
+            <p style="color: aliceblue">Content-based systems, which use characteristic information and takes item attriubutes into consideration .
+
+Twitter , Youtube .
+
+Which music you are listening , what singer are you watching . Form embeddings for the features .
+
+User specific actions or similar items reccomendation .
+
+It will create a vector of it .
+
+These systems make recommendations using a user's item and profile features. They hypothesize that if a user was interested in an item in the past, they will once again be interested in it in the future
+
+One issue that arises is making obvious recommendations because of excessive specialization (user A is only interested in categories B, C, and D, and the system is not able to recommend items outside those categories, even though they could be interesting to them).</p>
+            <br>
+            <h3 style="color: aliceblue">2 ) Collaborative Based :</h3><br>
+            <p style="color: aliceblue">Collaborative filtering systems, which are based on user-item interactions.
+
+Clusters of users with same ratings , similar users .
+
+Book recommendation , so use cluster mechanism .
+
+We take only one parameter , ratings or comments .
+
+In short, collaborative filtering systems are based on the assumption that if a user likes item A and another user likes the same item A as well as another item, item B, the first user could also be interested in the second item .
+
+Issues are :
+
+User-Item nXn matrix , so computationally expensive .
+
+Only famous items will get reccomended .
+
+New items might not get reccomended at all .
+
+</p>
+            <br>
+            <h3 style="color: aliceblue">3 ) Hybrid Based :</h3><br>
+            <p style="color: aliceblue">Hybrid systems, which combine both types of information with the aim of avoiding problems that are generated when working with just one kind.
+
+Combination of both and used now a days .
+
+Uses : word2vec , embedding .
+            </p>
+            <br>
+        </div>
+
+    </div>
+</div>
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="/about">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Copyright Information</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/ram.gavade.3705/"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/ramgavade11/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/ram-gavade-5b35b7283/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
